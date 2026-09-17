@@ -6,11 +6,11 @@ int main()
   scanf("%i",&a);
   if (a%2==0)
   {
-    printf("%i its an even interger\n");
+    printf("%i its an even interger\n",a);
   }
   else
   {
-    printf("%i its a odd interger\n");
+    printf("%i its a odd interger\n",a);
   }
 return 0;
 }
