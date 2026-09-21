@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {//program to implement a basic calculator using switch-case for +, -, *, /, %
   double a,b,d;
@@ -28,7 +29,7 @@ int main()
       printf("u have selected / %f\n",d);
       break;
     case '%':
-      d=(int)a%(int)b;
+      d=fmod(a,b)
       printf("u have selected %% %f\n",d);
       break;
     default:
